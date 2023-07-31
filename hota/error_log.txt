@@ -1,0 +1,118 @@
+MotChallenge2DBox
+MPNTrack
+Traceback (most recent call last):
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\eval.py", line 180, in evaluate
+    metric.plot_single_tracker_results(table_res, tracker_display_name, c_cls,
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\metrics\hota.py", line 185, in plot_single_tracker_results
+    from matplotlib import pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+
+
+
+
+
+MotChallenge2DBox
+DEEPSORTTrack
+Traceback (most recent call last):
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\eval.py", line 113, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\eval.py", line 222, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\datasets\mot_challenge_2d_box.py", line 323, in get_preprocessed_seq_data
+    self._check_unique_ids(raw_data)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\datasets\_base_dataset.py", line 315, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: MOT16-09, frame: 1, ids: -1)
+
+
+
+
+
+MotChallenge2DBox
+DEEPSORTTrack
+Traceback (most recent call last):
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\eval.py", line 113, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\eval.py", line 222, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\datasets\mot_challenge_2d_box.py", line 323, in get_preprocessed_seq_data
+    self._check_unique_ids(raw_data)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\datasets\_base_dataset.py", line 315, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: MOT16-09, frame: 1, ids: -1)
+
+
+
+
+
+MotChallenge2DBox
+DEEPSORTTrack
+Traceback (most recent call last):
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\eval.py", line 113, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\eval.py", line 222, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\datasets\mot_challenge_2d_box.py", line 323, in get_preprocessed_seq_data
+    self._check_unique_ids(raw_data)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\datasets\_base_dataset.py", line 315, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: MOT16-09, frame: 1, ids: -1)
+
+
+
+
+
+MotChallenge2DBox
+DEEPSORTTrack
+Traceback (most recent call last):
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\eval.py", line 113, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\eval.py", line 218, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\datasets\_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\datasets\mot_challenge_2d_box.py", line 220, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Tracking data contains the following invalid timesteps in seq TUD-Campus: 72, , 73, , 74, , 75, , 76, , 77, , 78, , 79, , 80, , 81, , 82, , 83, , 84, , 85, , 86, , 87, , 88, , 89, , 90, , 91, , 92, , 93, , 94, , 95, , 96, , 97, , 98, , 99, , 100, , 101, , 102, , 103, , 104, , 105, , 106, , 107, , 108, , 109, , 110, , 111, , 112, , 113, , 114, , 115, , 116, , 117, , 118, , 119, , 120, , 121, , 122, , 123, , 124, , 125, , 126, , 127, , 128, , 129, , 130, , 131, , 132, , 133, , 134, , 135, , 136, , 137, , 138, , 139, , 140, , 141, , 142, , 143, , 144, , 145, 
+
+
+
+
+
+MotChallenge2DBox
+DEEPSORTTrack
+Traceback (most recent call last):
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\eval.py", line 113, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\eval.py", line 218, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\datasets\_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "C:\Users\maria\dev\HSE\deepDT\hota\trackeval\datasets\mot_challenge_2d_box.py", line 220, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Tracking data contains the following invalid timesteps in seq TUD-Campus: 72, , 73, , 74, , 75, , 76, , 77, , 78, , 79, , 80, , 81, , 82, , 83, , 84, , 85, , 86, , 87, , 88, , 89, , 90, , 91, , 92, , 93, , 94, , 95, , 96, , 97, , 98, , 99, , 100, , 101, , 102, , 103, , 104, , 105, , 106, , 107, , 108, , 109, , 110, , 111, , 112, , 113, , 114, , 115, , 116, , 117, , 118, , 119, , 120, , 121, , 122, , 123, , 124, , 125, , 126, , 127, , 128, , 129, , 130, , 131, , 132, , 133, , 134, , 135, , 136, , 137, , 138, , 139, , 140, , 141, , 142, , 143, , 144, , 145, 
+
+
+
+
+
