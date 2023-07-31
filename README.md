@@ -4,6 +4,8 @@ Commit history here: https://github.com/mariarzv/deepDT
 ![report1](/report/Page1.png)
 ![report2](/report/Page2.png)
 ![report3](/report/Page3.png)
+![report3](/report/Page4.png)
+![report3](/report/Page5.png)
 
 ## Introduction
 
