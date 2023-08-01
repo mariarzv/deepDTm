@@ -1,11 +1,19 @@
 # Deep SORT
 Commit history here: https://github.com/mariarzv/deepDT
 
+Colab: https://colab.research.google.com/drive/1sm7X9FJic84Wqd7p62augS3km2IP1hAi?usp=sharing
+
+Tracking visualization:
+![rvis](/report/vis.gif)
+
+Can download report files from report folder of the project.
+Report:
 ![report1](/report/Page1.png)
 ![report2](/report/Page2.png)
 ![report3](/report/Page3.png)
-![report3](/report/Page4.png)
-![report3](/report/Page5.png)
+![report4](/report/Page4.png)
+![report5](/report/Page5.png)
+![report6](/report/Page6.png)
 
 ## Introduction
 
